@@ -17,6 +17,8 @@
 n = int(input("Введіть ціле число "))
 
 # Обчислюємо значення виразу n + nn + nnn
+print ("int(str(n) * 2): ", int(str(n) * 2))
+print ("int(str(n) * 3): ", int(str(n) * 3))
 result = n + int(str(n) * 2) + int(str(n) * 3)
 # Другій варіант
 # result = n*1 + n*11 + n*111
